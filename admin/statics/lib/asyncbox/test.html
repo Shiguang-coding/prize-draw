@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AsyncBox Test Page - wuxinxi007</title>
+<link href="skins/ZCMS/asyncbox.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="jQuery.v1.4.2.js"></script>
+<script type="text/javascript" src="AsyncBox.v1.4.5.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		$('#btn_alert').click(function(){
+				asyncbox.tips('Pass','success');
+		});
+		
+	});
+</script>
+<style type="text/css">
+body{background:#f9f9f9;font-size:14px;}
+.box{ margin:10px;}
+.logo{font:bold 30px 'Arial Black',sans-serif; color:#066; }
+.logo span{font-size:12px; font-weight:normal; color:#999}
+input {padding:2px 16px;}
+</style>
+</head>
+<body>
+	<div class="box">
+        <div class="logo">AsyncBox<span> 测试页面</span></div>
+        <p>测试插件运行、样式表现。</p>
+        <p>挑一款合适的皮肤放到项目中，其余可删除。若使用 ZCMS 皮肤的注意了。</p>
+        <p>更多使用帮助请看 API 和 <a href="http://asyncui.com/faq.html">FAQ</a>。</p>
+        <p>
+            <input id="btn_alert" type="button" value="alert" />
+            <input id="btn_html" type="button" value="html" /> 
+            <select name="">
+              <option>IE6 下遮挡 select</option>
+            </select>
+        </p>
+        
+    </div>
+</body>
+</html>

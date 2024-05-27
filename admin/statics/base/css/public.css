@@ -1,0 +1,16 @@
+﻿@charset "utf-8";
+body,form,input,textarea,select,img,label{margin:0;padding:0;}
+img{border:0;}
+input,select,label{vertical-align:middle;font-size:12px;}
+textarea{vertical-align:top;}
+a{color:#333;text-decoration:none;outline:none;}
+a:hover{color:#f30;outline:none;}
+div,td{font-size:12px;color:#333;line-height:22px;font-family:verdana;}
+
+.clear{clear:both;}
+.clear_fixed{margin:11px 0 10px 0;padding:0 10px 0 10px;width:auto;overflow:hidden;}
+.p10{padding:10px;}
+.l30{line-height:30px;}
+.dis{display:none;}
+.c9{color:#999;}
+#color{cursor:pointer;}

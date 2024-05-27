@@ -1,0 +1,1 @@
+<div class="footer">Powered by <b><a href="http://www.jocat.cn/" target="_blank">奇偶猫</a>&nbsp;&nbsp;</b> &copy;2008-<?php echo date('Y')?></div>
